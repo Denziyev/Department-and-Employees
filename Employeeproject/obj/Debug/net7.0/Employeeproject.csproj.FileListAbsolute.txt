@@ -1,0 +1,15 @@
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\bin\Debug\net7.0\Employeeproject.exe
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\bin\Debug\net7.0\Employeeproject.deps.json
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\bin\Debug\net7.0\Employeeproject.runtimeconfig.json
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\bin\Debug\net7.0\Employeeproject.dll
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\bin\Debug\net7.0\Employeeproject.pdb
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\Employeeproject.csproj.AssemblyReference.cache
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\Employeeproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\Employeeproject.AssemblyInfoInputs.cache
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\Employeeproject.AssemblyInfo.cs
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\Employeeproject.csproj.CoreCompileInputs.cache
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\Employeeproject.dll
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\refint\Employeeproject.dll
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\Employeeproject.pdb
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\Employeeproject.genruntimeconfig.cache
+C:\Users\VO\Desktop\Employeeproject\Employeeproject\obj\Debug\net7.0\ref\Employeeproject.dll
