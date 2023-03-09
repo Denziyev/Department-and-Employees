@@ -10,6 +10,7 @@ namespace Employeeproject.Models
     internal class Department
     {
         string _depname;
+
         public string DepName
         {
             get => _depname;
@@ -23,24 +24,24 @@ namespace Employeeproject.Models
 
 
 
-        public void AddEmployee(Employee[] Emplo)
+        public void AddEmployee(ref Employee[] Emplo)
         {
             for (int CountEmployee = 1; CountEmployee <= EmployeeLimit;)
             {
                 
                 Employee emp = new Employee();
                 Console.WriteLine($"Enter {CountEmployee} Employee Name: ");
-                string Name = Console.ReadLine();
+                emp.Name = Console.ReadLine();
                 Console.WriteLine($"Enter {CountEmployee } Employee Surname: ");
-                string Surname = Console.ReadLine();
+                emp.Surname = Console.ReadLine();
                 Console.WriteLine($"Enter {CountEmployee} Employee Salary");
-                double Salary = double.Parse(Console.ReadLine());
-                if (emp.CheckSalary(Salary) && emp.CheckSurname(Surname) && emp.CheckName(Name))
+                emp.Salary = double.Parse(Console.ReadLine());
+                if (emp.CheckSalary(emp.Salary) && emp.CheckSurname(emp.Surname) && emp.CheckName(emp.Name))
                 {
                     
                     Array.Resize(ref Emplo, Emplo.Length + 1);
                     Emplo[Emplo.Length-1] = emp;
-                    CountEmployee++;
+                    CountEmployee++;  
 
                 }
                 else Console.WriteLine($"Ad ve soyad boyuk herfle baslamallidi ve yalniz herflerden ibaret olmalidi, Salary min 250 olmalidi");
@@ -48,13 +49,16 @@ namespace Employeeproject.Models
             }
             Console.WriteLine($"Employee Limit is {EmployeeLimit}");
         }
-        public void ShowEmployee(Employee[] Emplo)
-        {
-            for (int  i = 0; i < Emplo.Length; i++)
-            {
-                Console.WriteLine($"Employee {i + 1} Name: {Emplo[i].Name} ,Employee {i + 1} Surname: {Emplo[i].Surname} , Employee {i + 1} Salary: {Emplo[i].Salary} ");
-            }
 
+        public void ShowEmployee(ref Employee[] Emploe)
+        {
+            
+
+            for (int i = 0; i < Emploe.Length; i++)
+            {
+                Console.WriteLine("Employee "+(i + 1)+" Name: "+Emploe[i].Name+"          Employee "+(i + 1)+ " Surname: "+Emploe[i].Surname+ "          Employee "+(i + 1)+" Salary: "+Emploe[i].Salary );
+            }
         }
+
     }
 }

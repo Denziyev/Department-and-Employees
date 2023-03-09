@@ -5,5 +5,6 @@ Console.WriteLine("Enter the Department Name:");
 department.DepName = Console.ReadLine();
 Employee[] Employees= new Employee[0];
 
-department.AddEmployee(Employees);
-department.ShowEmployee(Employees);
+department.AddEmployee(ref Employees);
+department.ShowEmployee(ref Employees);
+
